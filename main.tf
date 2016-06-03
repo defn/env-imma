@@ -14,4 +14,14 @@ module "env" {
   az_names = "${var.az_names}"
 
   nat_cidrs = "${var.nat_cidrs}"
+
+  bucket_remote_state = "${var.bucket_remote_state}"
+}
+
+module "consul" {
+  source = "../module-aws-app"
+
+  provider_region = "${var.provider_region}"
+
+  vpc_name = "${var.vpc_name}"
 }
