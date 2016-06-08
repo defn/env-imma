@@ -1,4 +1,8 @@
+vpc_name = "development"
+
 vpc_cidr = "172.31.0.0/16"
+
+provider_region = "us-west-1"
 
 az_names = "us-west-1b us-west-1c"
 
