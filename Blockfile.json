@@ -2,6 +2,6 @@
   "require": [
     "wtf",
     "module-aws-env",
-    "module-aws-app"
+    "app-consul"
   ]
 }
