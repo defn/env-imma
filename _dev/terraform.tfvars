@@ -1,4 +1,4 @@
-vpc_name = "development"
+vpc_name = "imma-dev"
 
 vpc_cidr = "172.31.0.0/16"
 
