@@ -14,6 +14,4 @@ module "env" {
 
   vpc_name = "${var.vpc_name}"
   vpc_cidr = "${var.vpc_cidr}"
-
-  nat_cidrs = "${var.nat_cidrs}"
 }
