@@ -1,5 +1,4 @@
-provider "aws" {
-}
+provider "aws" { }
 
 module "env" {
   source = "../module-aws-env"
@@ -12,4 +11,8 @@ module "env" {
 
   vpc_name = "${var.vpc_name}"
   vpc_cidr = "${var.vpc_cidr}"
+}
+
+output "vpc_id" {
+  value = "${module.env.vpc_id}"
 }
